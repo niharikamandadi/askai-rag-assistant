@@ -1,0 +1,7 @@
+Operating System (OS) is system software that manages hardware and software resources.
+
+Functions of OS:
+- Process management
+- Memory management
+- File system management
+- Device management

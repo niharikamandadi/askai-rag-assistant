@@ -1,0 +1,5 @@
+Docker is widely used in CI/CD pipelines.
+
+It allows applications to be packaged with all dependencies into containers.
+
+This ensures consistency across environments and simplifies deployment.

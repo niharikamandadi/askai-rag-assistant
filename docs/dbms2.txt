@@ -1,0 +1,6 @@
+Normalization is the process of organizing data to reduce redundancy.
+
+Types:
+- 1NF
+- 2NF
+- 3NF

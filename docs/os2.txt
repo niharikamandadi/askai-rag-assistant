@@ -1,0 +1,9 @@
+Process vs Thread:
+
+Process:
+- Independent program
+- Has its own memory
+
+Thread:
+- Lightweight
+- Shares memory with other threads

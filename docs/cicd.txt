@@ -1,0 +1,5 @@
+CI/CD stands for Continuous Integration and Continuous Deployment.
+
+It automates building, testing, and deployment.
+
+Tools include Jenkins, GitHub Actions, GitLab CI.

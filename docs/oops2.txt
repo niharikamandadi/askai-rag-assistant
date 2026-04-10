@@ -1,0 +1,6 @@
+Encapsulation means binding data and methods together.
+
+It helps in:
+- Data hiding
+- Security
+- Better code organization

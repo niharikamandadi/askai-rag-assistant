@@ -1,0 +1,11 @@
+Polymorphism in Object-Oriented Programming:
+
+Polymorphism means "many forms".
+
+It allows methods to behave differently based on the object.
+
+Types of polymorphism:
+1. Compile-time (Method Overloading)
+2. Runtime (Method Overriding)
+
+It helps in flexibility and reusability of code.

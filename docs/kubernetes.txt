@@ -1,0 +1,4 @@
+Kubernetes is used to manage containerized applications.
+
+To check pod logs:
+kubectl logs <pod-name>

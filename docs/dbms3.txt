@@ -1,0 +1,10 @@
+ACID Properties in DBMS:
+
+ACID ensures reliable database transactions.
+
+A - Atomicity: Transaction is all or nothing.
+C - Consistency: Database remains valid before and after transaction.
+I - Isolation: Transactions do not interfere with each other.
+D - Durability: Changes are permanently saved.
+
+These properties ensure data integrity and reliability.

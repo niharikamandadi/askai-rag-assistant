@@ -1,0 +1,7 @@
+Docker is used to build and run containers.
+
+To build an image:
+docker build -t image_name .
+
+To run a container:
+docker run image_name

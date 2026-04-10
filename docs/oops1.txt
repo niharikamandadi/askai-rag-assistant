@@ -1,0 +1,7 @@
+OOPs stands for Object-Oriented Programming.
+
+Main concepts:
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
