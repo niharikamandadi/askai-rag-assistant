@@ -20,7 +20,6 @@ def load_docs():
     
     return docs
 
-##st.title("🛠️ DevOps AI Assistant")
 st.title("AskAI: Multi-Domain Knowledge Assistant")
 
 # Step 1: Split text
@@ -37,9 +36,6 @@ texts = []
 for doc in documents:
     chunks = text_splitter.split_text(doc)
     texts.extend(chunks)
-##st.write("Texts:", texts)
-
-##st.write("Texts:", texts)
 
 # Step 2: Free embeddings (no API)
 @st.cache_resource
