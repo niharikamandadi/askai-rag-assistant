@@ -3,8 +3,35 @@ from langchain_text_splitters import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from transformers import pipeline
-
 import os   
+
+st.set_page_config(page_title="AskAI", layout="centered")
+
+st.markdown("""
+<style>
+.block-container {
+    padding-top: 2rem;
+}
+.title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+}
+.subtitle {
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+}
+.card {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 
 def load_docs():
     docs = []
@@ -13,14 +40,15 @@ def load_docs():
     for file in os.listdir(folder):
         file_path = os.path.join(folder, file)
 
-        # ✅ IMPORTANT: only open files, not folders
+        # only open/s files, not folders
         if os.path.isfile(file_path):
             with open(file_path, "r", encoding="utf-8") as f:
                 docs.append(f.read())
     
     return docs
-
-st.title("AskAI: Multi-Domain Knowledge Assistant")
+ 
+##st.title("AskAI: Multi-Domain Knowledge Assistant")
+st.markdown('<div class="title">🤖 AskAI — Your Smart Knowledge Assistant</div>', unsafe_allow_html=True)
 
 # Step 1: Split text
 text_splitter = CharacterTextSplitter(chunk_size=200, chunk_overlap=50)
@@ -66,11 +94,12 @@ if query:
 
         st.markdown(f"""
         <div style="
-        background-color:#e8f5e9;
-        padding:15px;
-        border-radius:10px;
+        background: linear-gradient(135deg, #d4fc79, #96e6a1);
+        padding:18px;
+        border-radius:12px;
         color:#1b5e20;
         font-size:16px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         ">
         {answer}
         </div>
