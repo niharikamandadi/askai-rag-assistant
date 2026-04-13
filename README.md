@@ -1,4 +1,4 @@
-# 🤖 AI RAG Assistant (Multi-Domain Knowledge System)
+# 🤖 AskAI — Smart Knowledge Assistant (RAG System)
 
 Built an AI-powered Retrieval-Augmented Generation (RAG) system using LangChain, FAISS, and HuggingFace Transformers.
 
