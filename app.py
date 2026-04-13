@@ -47,7 +47,6 @@ def load_docs():
     
     return docs
  
-##st.title("AskAI: Multi-Domain Knowledge Assistant")
 st.markdown('<div class="title">🤖 AskAI — Your Smart Knowledge Assistant</div>', unsafe_allow_html=True)
 
 # Step 1: Split text
