@@ -5,7 +5,7 @@ Built an AI-powered Retrieval-Augmented Generation (RAG) system using LangChain,
 ## 📸 UI Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/niharikamandadi/askai-rag-assistant/main/Screenshot.png" width="800"/>" width="800"/>
+  <img src="https://raw.githubusercontent.com/niharikamandadi/askai-rag-assistant/main/Screenshot.png" width="800"/>
 </p>
 
 ## 🚀 Features
